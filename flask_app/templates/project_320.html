@@ -1,0 +1,35 @@
+{% extends "header.html" %}
+
+{% block content %}
+
+<div class="row pt-5">
+    <div class="col-1"></div>
+    <div class="col">
+        <h3>
+            League of Legends Dataset Analysis
+        </h3>
+        <img src="{{ url_for('static', filename='320.PNG')  }}" width="1000" height="auto"/>
+    </div>
+</div>
+<div class="row pt-3">
+    <div class="col-1"></div>
+    <div class="col">
+        <p>As part of a class final, I used an existing dataset to perform data analysis.
+            Data was sanitized and organized, then used to figure out whether the competitive regions
+            of North America or Europe have performed better in the popular online game League of Legends.
+            This project concluded a semester of learning the basics of data science.
+        </p>
+    </div>
+</div>
+<div class="row pt-3">
+    <div class="col-1"></div>
+    <div class="col">
+        <h4>
+            <a href="https://abcdl44.github.io/320Final/">Link to Page,</a>
+            <a href="https://github.com/abcdl44/320Final">Repository</a>
+        </h4>
+    </div>
+</div>
+    
+
+{% endblock %}

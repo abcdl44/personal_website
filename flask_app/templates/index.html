@@ -2,5 +2,51 @@
 
 {% block content %}
 
+<div class="row pt-sm-4">
+    <div class="col-1"></div>
+    <div class="col-9">
+        <h3>Who am I?</h3>       
+            <p>
+                My name is Wesley Chen, and I am currently a third year computer science student
+                at the University of Maryland, College Park. Thanks for taking the time to drop by my
+                site. Be sure to check out the projects tabs to see what stuff I've been up to lately.
+                If you're here as part of job related evaluation, I hope I can make a decent showing of myself!
+            </p>
+
+    </div>
+</div>
+
+<div class="row pt-sm-4">
+    <div class="col-1"></div>
+    <div class="col-9">
+        <h4>Who am I? Minus the superficial description</h4>
+        <img src="{{ url_for('static', filename='me.JPG')  }}" width="350" height="auto" class="float-left pr-3"/>
+        <p>
+            I'd like to describe myself as passionate, especially when it comes to making
+            other people happy. I love making personal connections with others, and tend to really value these
+            relationships once they've been established. These relationships are true regardless of whether
+            they were made in person or online - some of my favorite people are those I've met through the
+            internet, both through gaming and other activities.
+        </p>
+        <p>
+            Speaking of which, gaming happens to be one of (if not my favorite) hobby. I love all kinds of games, though
+            my favorite would definitely include social based MMOs. It's a lot of fun meeting different people from
+            all over the world, and learning about different cultures and kinds of people through the freedom of the
+            internet has always been a cool experience. Lately I've been looking forwards to the western release
+            of Lost Ark, so fingers crossed that it comes out on time!
+        </p>
+        <p>
+            I'd love to turn my passion for playing games into work related use, and work as a full time
+            game designer or developer. I feel that as a long time gamer, I can understand what sort of things
+            make people happy, and what mechanics and behaviors are less welcomed by players both casual and
+            competitive.
+        </p>
+        <p>
+            If you're still here, thanks for taking the time to read all this. Have a nice day, both anonymous strangers
+            and to-be-met acquaintances!
+        </p>
+    </div>
+
+</div>
 
 {% endblock %}

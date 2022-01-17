@@ -1,0 +1,35 @@
+{% extends "header.html" %}
+
+{% block content %}
+
+<div class="row pt-5">
+    <div class="col-1"></div>
+    <div class="col">
+        <h3>
+            Initium
+        </h3>
+        <img src="{{ url_for('static', filename='Initium.PNG')  }}" width="1000" height="auto"/>
+    </div>
+</div>
+<div class="row pt-3">
+    <div class="col-1"></div>
+    <div class="col">
+        <p>Initium was a game I created content for while in high school, and was my first practical experience with game design.
+            It's an indie text based web MMO, and had a very tiny but loyal community when I played. Working
+            and playing it helped inspire my passion for game design, as I got to directly see the reactions 
+            of the playerbase as they encountered and explored my work. It would be a dream to work on an MMO like
+            Initium some time in the future, and to contribute to something which could make many kinds of players happy.
+        </p>
+    </div>
+</div>
+<div class="row pt-3">
+    <div class="col-1"></div>
+    <div class="col">
+        <h4>
+            <a href="https://www.playinitium.com/">Link to the Game</a>
+        </h4>
+    </div>
+</div>
+    
+
+{% endblock %}
