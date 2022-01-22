@@ -31,5 +31,5 @@ def settlement():
     return render_template("project_settlement.html")
 
 @app.route("/projects/minecraft", methods=["GET"])
-def settlement():
+def minecraft():
     return render_template("project_minecraft.html")
